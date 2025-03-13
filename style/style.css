@@ -28,3 +28,95 @@ a{
 .menubutton{
     margin: 0px 36px 0px 0px;
 }
+.line4{
+    width: 100%;
+    height: 2px;
+    background-color: #404040;
+}
+.frame16{
+    width: 1276px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.group50{
+    width: 365px;
+}
+.dbs{
+    font-size: 60px;
+}
+.group48{
+    font-size: 30px;
+    font-style: italic;
+}
+.group50 p{
+    margin: 24px 0px 40px 0px;
+    width: 350px;
+    font-size: 16px;
+}
+.group50 a{
+    box-sizing: border-box;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 16px 33px 16px 33px;
+}
+.group44{
+    width: 1244px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.frame15{
+    width: 636px;
+    margin: 60px 0px 122px 46px;
+
+}
+.frame15 p{
+    margin: 0px 0px 40px 0px;
+    font-size: 20px;
+}
+.frame15 a{
+    box-sizing: border-box;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 16px 33px 16px 33px;
+}
+.group39{
+    width: 1296px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #91282F, #330002);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.group39 img{
+    margin: 44px 113px 16px 0px;
+}
+.group37{
+    margin: 66px 0px 67px 62px;
+    width: 426px;
+}
+.group37 h1{
+    font-size: 36px;
+    margin: 0px;
+}
+.group37 p{
+    margin: 8px 0px 25px 0px;
+    font-size: 17px;
+}
+.group37 a{
+    box-sizing: border-box;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 13px 65px 13px 65px;
+}
