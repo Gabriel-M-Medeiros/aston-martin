@@ -1,0 +1,30 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu{
+    width: 1278px;
+    margin: 0 auto;   
+}
+
+.navigation{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.frame17{
+    align-content: center;
+}
+.menubutton{
+    margin: 0px 36px 0px 0px;
+}
