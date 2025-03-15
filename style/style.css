@@ -4,6 +4,9 @@
     background-color: #000000;
     color: #FFFFFF;
 }
+img{
+    min-width: 0px;
+}
 
 a{
     color: #FFFFFF;
@@ -11,7 +14,8 @@ a{
 }
 
 .menu{
-    width: 1278px;
+    width: 100%;
+    max-width: 1278px;
     margin: 0 auto;   
 }
 
@@ -41,14 +45,27 @@ a{
     background-color: #404040;
 }
 .frame16{
-    width: 1276px;
+    width: 100%;
+    max-width: 1276px;
     margin: 232px 323px 64px 321px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
+.rect img{
+    max-width: 100%;
+    height: auto;
+}
+.group51{
+    width: 100%;
+}
+.group51 img{
+    max-width: 100%;
+    height: auto;
+}
 .group50{
-    width: 365px;
+    min-width: 365px;
 }
 .dbs{
     font-size: 60px;
@@ -58,8 +75,9 @@ a{
     font-style: italic;
 }
 .group50 p{
+    width: 100%;
     margin: 24px 0px 40px 0px;
-    width: 350px;
+    max-width: 350px;
     font-size: 16px;
 }
 .group50 a{
@@ -71,15 +89,21 @@ a{
     padding: 16px 33px 16px 33px;
 }
 .group44{
-    width: 1244px;
+    width: 100%;
+    max-width: 1244px;
     margin: 0px 351px 64px 325px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
+.group44 img{
+    max-width: 100%;
+    height: auto;
+}
 .frame15{
-    width: 636px;
+    width: 100%;
+    max-width: 636px;
     margin: 60px 0px 122px 46px;
 
 }
@@ -96,7 +120,8 @@ a{
     padding: 16px 33px 16px 33px;
 }
 .group39{
-    width: 1296px;
+    width: 100%;
+    max-width: 1296px;
     margin: 0px 304px 55px 320px;
     background: linear-gradient(to right, #91282F, #330002);
     justify-content: space-between;
@@ -105,6 +130,8 @@ a{
     align-items: center;
 }
 .group39 img{
+    max-width: 100%;
+    height: auto;
     margin: 44px 113px 16px 0px;
 }
 .group37{
@@ -159,7 +186,8 @@ a{
     background-color: #A4A4A4;
 }
 .group41{
-    width: 1316px;
+    width: 100%;
+    max-width: 1316px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -179,40 +207,33 @@ a{
 .politica{
     margin: 0px 25px 0px 0px;
 }
-@media screen and (max-width: 764px){
-    .menu{
-        width: 100%;
-        margin: 0px;   
-    }
-    
-    .navigation{
-        height: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 20px 0px;
-    }
-    .frame17{
-        align-content: center;
+@media (max-width: 1645px) {
+    body{
+        margin: 0px;
     }
     .menubutton{
-        margin: 0px 8px 0px 0px;
+        margin: 0px 32px 0px 0px;
     }
-    .button{
-        border-color: #FFFFFF;
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 10px;
-        padding: 10px 20px 11px 20px;
+    .main{
+        margin: 32px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
-    .line4{
+    .frame16{
         width: 100%;
-        height: 2px;
-        background-color: #404040;
+        max-width: 1276px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
-    .group50{
-        width: 365px;
+    .frame16 img{
+        max-width: 100%;
+        height: auto;
     }
+
     .dbs{
         font-size: 60px;
     }
@@ -221,8 +242,9 @@ a{
         font-style: italic;
     }
     .group50 p{
+        width: 100%;
         margin: 24px 0px 40px 0px;
-        width: 350px;
+        max-width: 350px;
         font-size: 16px;
     }
     .group50 a{
@@ -234,15 +256,22 @@ a{
         padding: 16px 33px 16px 33px;
     }
     .group44{
-        width: 1244px;
-        margin: 0px 351px 64px 325px;
+        width: 100%;
+        max-width: 1244px;
+        margin: 0px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         
     }
+    .group44 img{
+        max-width: 100%;
+        height: auto;
+    }
     .frame15{
-        width: 636px;
+        width: 100%;
+        max-width: 636px;
         margin: 60px 0px 122px 46px;
     
     }
@@ -259,8 +288,9 @@ a{
         padding: 16px 33px 16px 33px;
     }
     .group39{
-        width: 1296px;
-        margin: 0px 304px 55px 320px;
+        width: 100%;
+        max-width: 1296px;
+        margin: 0px;
         background: linear-gradient(to right, #91282F, #330002);
         justify-content: space-between;
         display: flex;
@@ -268,7 +298,9 @@ a{
         align-items: center;
     }
     .group39 img{
-        margin: 44px 113px 16px 0px;
+        max-width: 100%;
+        height: auto;
+        margin: 0px;
     }
     .group37{
         margin: 66px 0px 67px 62px;
@@ -307,7 +339,8 @@ a{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 1310px;
+        width: 100%;
+        max-width: 1310px;
     }
     .group17 p{
         margin: 14px 0px 64px 0px;
@@ -322,7 +355,8 @@ a{
         background-color: #A4A4A4;
     }
     .group41{
-        width: 1316px;
+        width: 100%;
+        max-width: 1316px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -343,12 +377,56 @@ a{
         margin: 0px 25px 0px 0px;
     }
 
-    .frame16{
-        width: 1276px;
+    
+}
+@media screen and (max-width: 764px){
+    .main{
+        width: 100%;
+        max-width: 100%;
+    }
+    .menubutton{
+        font-size: 12px;
         margin: 0px;
+    }
+    .frame16{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .group44{
+        display: flex;
+        flex-direction: column;
+    }
+    .group39{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .group41{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    .frame15{
+        width: 100%;
+        max-width: 636px;
+        margin: 60px 0px 122px 0px;
+    
+    }
+    .frame15 p{
+        margin: 0px 0px 40px 0px;
+        font-size: 20px;
+    }
+    .group37{
+        margin: 66px 0px 67px 0px;
+        width: 426px;
+    }
+    .group37 h1{
+        font-size: 36px;
+        margin: 0px;
+    }
+    .group37 p{
+        margin: 8px 0px 25px 0px;
+        font-size: 17px;
+    }
+
     
 }
