@@ -385,7 +385,6 @@ a{
         max-width: 100%;
     }
     .menubutton{
-        font-size: 12px;
         margin: 0px;
     }
     .frame16{
@@ -416,8 +415,9 @@ a{
         font-size: 20px;
     }
     .group37{
-        margin: 66px 0px 67px 0px;
-        width: 426px;
+        margin: 66px 0px 66px 0px;
+        width: 100%;
+        max-width: 426px;
     }
     .group37 h1{
         font-size: 36px;
@@ -426,6 +426,14 @@ a{
     .group37 p{
         margin: 8px 0px 25px 0px;
         font-size: 17px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button{
+        padding: 4px 8px 4px 8px;
     }
 
     
