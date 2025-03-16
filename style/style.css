@@ -405,26 +405,32 @@ a{
         align-items: center;
     }
     .frame15{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         max-width: 636px;
         margin: 60px 0px 122px 0px;
-    
     }
     .frame15 p{
-        margin: 0px 0px 40px 0px;
+        margin: 8px 8px 40px 8px;
         font-size: 20px;
+        text-align: justify;
     }
     .group37{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: 66px 0px 66px 0px;
         width: 100%;
         max-width: 426px;
     }
     .group37 h1{
         font-size: 36px;
-        margin: 0px;
+        margin: 0px 8px;
     }
     .group37 p{
-        margin: 8px 0px 25px 0px;
+        margin: 8px 8px 25px 8px;
         font-size: 17px;
     }
     .navigation{
@@ -435,4 +441,10 @@ a{
     .button{
         padding: 4px 8px 4px 8px;
     }
+    .group50{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
